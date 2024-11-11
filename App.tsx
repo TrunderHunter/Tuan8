@@ -1,7 +1,7 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
-import HomeScreen from "./src/screens/HomScreen";
+import HomeScreen from "./src/screens/HomeScreen";
 import ProductsScreen from "./src/screens/ProductsScreen";
 import ProductDetailScreen from "./src/screens/ProductDetailScreen";
 import { StyleSheet } from "react-native";
