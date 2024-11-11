@@ -20,12 +20,13 @@ export default function App() {
         <Stack.Screen
           name="Products"
           component={ProductsScreen}
-          options={{ title: "The world’s Best Bike" }}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="ProductDetail"
           component={ProductDetailScreen}
-          options={{ title: "Product Details" }}
+          options={{ headerShown: false }}
+          // options={{ title: "Product Details" }}
         />
       </Stack.Navigator>
     </NavigationContainer>
